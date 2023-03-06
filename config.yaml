@@ -222,7 +222,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
+      - title: Avi Graphics Library
         content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
         image: /images/projects/profile.png
         featured:
@@ -240,7 +240,7 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
+      - title: Avi Physics Engine
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
         image: /images/projects/converter.jpg
         featured:
@@ -253,7 +253,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
+      - title: Try Again (Unity)
         content: A clean and simple Hugo template for personal portfolio and blog.
         image: /images/projects/profile2.jpg
         featured:
