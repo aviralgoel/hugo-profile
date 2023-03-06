@@ -243,29 +243,24 @@ params:
       - title: Avi Physics Engine
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
         image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "C++"
+          - "Gameplay"
+          - "Graphics"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/aviralgoel/SupremeEngine
 
       - title: Try Again (Unity)
         content: A clean and simple Hugo template for personal portfolio and blog.
         image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Unity"
+          - "Gameplay"
+          - "C#"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=7r8WUmQkc0s
 
   #Contact
   contact:
@@ -285,14 +280,12 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: false
-      disableFeaturedImage: false
+      enable: true
+      disableFeaturedImage: true
     socialNetworks:
-      #github: https://github.com
-      #linkedin: https://linkedin.com
-      #twitter: https://twitter.com
-      #instagram: https://instagram.com
-      #facebook: https://facebook.com
+      #github: https://github.com/aviralgoel
+      #linkedin: https://www.linkedin.com/in/goelaviral/
+
 
   # List pages like blogs and posts
   listPages:
