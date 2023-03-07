@@ -5,8 +5,9 @@
     "\\themes\\hugo-profile",
     "\\themes\\hugo-profile\\layouts",
     "\\themes\\hugo-profile\\layouts\\partials",
-    "\\themes\\hugo-profile\\layouts\\partials\\sections"
+    "\\themes\\hugo-profile\\layouts\\partials\\sections",
+    "\\themes\\hugo-profile\\layouts\\partials\\sections\\footer"
   ],
-  "SelectedNode": "\\themes\\hugo-profile\\layouts\\partials\\sections\\header.html",
+  "SelectedNode": "\\themes\\hugo-profile\\layouts\\partials\\sections\\footer\\index.html",
   "PreviewInSolutionExplorer": false
 }
