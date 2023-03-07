@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\themes",
+    "\\themes\\hugo-profile",
+    "\\themes\\hugo-profile\\layouts",
+    "\\themes\\hugo-profile\\layouts\\partials",
+    "\\themes\\hugo-profile\\layouts\\partials\\sections"
   ],
   "PreviewInSolutionExplorer": false
 }
