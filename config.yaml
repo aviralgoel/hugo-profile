@@ -23,12 +23,12 @@ markup:
       unsafe: true
 
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+  #main:
+    #- identifier: blog
+     # name: Blog
+      #title: Blog posts
+      #url: /blogs
+      #weight: 1
     #- identifier: gallery
      # name: Gallery
       #title: Blog posts
@@ -56,7 +56,7 @@ params:
   title: "Aviral Goel"
   description: Aviral Goel, graphics and gameplay programmer in C++
   # staticPath: ""  # The path to serve the static files from
-  # favicon: "/fav.png"
+  favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -73,7 +73,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    defaultTheme: "light" # dark
+    defaultTheme: "dark" # light
 
   font:
     fontSize: 1rem # default: 1rem
@@ -101,8 +101,8 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    #brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Aviral Goel" # Brand name for the brand | default is the title variable
     disableSearch: true
     menus:
@@ -119,15 +119,15 @@ params:
     intro: "Hi, my name is"
     title: "Aviral Goel."
     #subtitle: "A graphics and gameplay programmer"
-    content: "I am graduate computer science student at the University of Southern California, specializing in graphics and gameplay programming. I'm proficient in C++/C programming, development in Unity Engine and familiar with graphics API's like Vulkan."
-    image: /images/me.jpeg
+    content: "I am graduate computer science student at the University of Southern California, specializing in graphics and gameplay programming. I proficient in C++/C programming, development in Unity Engine and familiar with graphics API's like Vulkan."
+    image: /images/hero.svg
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Resume"
-      url: /images/resume/latest.pdf
-      download: false
-      newPage: true
+      url: "#"
+      download: true
+      newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -223,37 +223,49 @@ params:
     # title: "Custom Name"
     items:
       - title: Avi Graphics Library
-        content: 3D rendering library in C capable of rendering multiple meshes along with texturing and third person camera.
-        image: /images/projects/avigl.gif
+        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+        image: /images/projects/profile.png
+        featured:
+          name: Demo
+          link: https://hugo-profile.netlify.app
         badges:
-          - "C"
-          - "3D Maths"
-          - "Graphics"
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
+        links:
+          - icon: fa fa-envelope
+            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/hugo-profile
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Avi Physics Engine
+        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+        image: /images/projects/converter.jpg
+        featured:
+          name: Demo
+          link: https://django-converter.herokuapp.com
+        badges:
+          - "Django"
+          - "Bootstrap"
         links:
           - icon: fab fa-github
-            url: https://github.com/aviralgoel/aviGL/
+            url: https://github.com/gurusabarish/converter
 
-      - title: Supreme Engine
-        content: A 2D Physics Engine in C++ that implements all things rendering, particle and rigid body physics, optimization techniques, and Verlet integration.
-        image: /images/projects/supremeengine.gif
+      - title: Try Again (Unity)
+        content: A clean and simple Hugo template for personal portfolio and blog.
+        image: /images/projects/profile2.jpg
+        featured:
+          name: Demo V2
+          link: https://hugo-profile-2.netlify.app
         badges:
-          - "C++"
-          - "Gameplay"
-          - "Graphics"
+          - "Hugo"
+          - "Bootstrap"
+          - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/aviralgoel/SupremeEngine
-
-      - title: Try Again Game
-        content: A 2.5d, fast-paced,  platformer about a video game temp character named Benny who is trapped inside of an unfinished game by a mysterious, insecure, Oz-like figure called, “The Designer.” 
-        image: /images/projects/tryagain.gif
-        badges:
-          - "Unity"
-          - "Gameplay"
-          - "C#"
-        links:
-          - icon: fab fa-youtube
-            url: https://www.youtube.com/watch?v=7r8WUmQkc0s
+            url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
@@ -273,12 +285,14 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
-      disableFeaturedImage: true
+      enable: false
+      disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com/aviralgoel
-      linkedin: https://www.linkedin.com/in/goelaviral/
-
+      #github: https://github.com
+      #linkedin: https://linkedin.com
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
