@@ -227,7 +227,7 @@ params:
         image: /images/projects/avigl.gif
         badges:
           - "C"
-          - "3D Maths"
+          - "SDL"
           - "Graphics"
         links:
           - icon: fab fa-github
