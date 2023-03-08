@@ -121,7 +121,10 @@ params:
     #subtitle: "A graphics and gameplay programmer"
     content: "I am graduate computer science student at the University of Southern California, specializing in graphics and gameplay programming. I'm proficient in C++/C programming, development in Unity Engine and familiar with graphics API's like Vulkan."
     image: /images/me.jpeg
+    bottomImage:
+      enable: true
     # roundImage: true # Make hero image circular | default false
+     
     button:
       enable: true
       name: "Resume"
