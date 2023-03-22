@@ -128,7 +128,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: /images/resume/latest.pdf
+      url: /images/resume/Aviral_Goel_resume_20230321.pdf
       download: false
       newPage: true
     socialLinks:
